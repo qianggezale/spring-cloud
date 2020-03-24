@@ -33,6 +33,7 @@ public class PaymentController {
     public ResultMessage getPayment(@PathVariable("id") Long id) {
         ResultMessage resultMessage = new ResultMessage();
         Payment payment = paymentService.getPayment(id);
+
         if (payment != null) {
             resultMessage.setCode(200);
             resultMessage.setMsg("成功");
