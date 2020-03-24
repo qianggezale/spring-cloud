@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-2020-03" target="1.5" />
-      <module name="cloud-provider-payment-8001" target="1.5" />
+      <module name="cloud-2020-03" target="1.8" />
+      <module name="cloud-provider-payment-8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
