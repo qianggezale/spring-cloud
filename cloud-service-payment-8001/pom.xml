@@ -76,7 +76,6 @@
             <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>

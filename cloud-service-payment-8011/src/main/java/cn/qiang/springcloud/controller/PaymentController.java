@@ -65,4 +65,10 @@ public class PaymentController {
         }
         return resultMessage;
     }
+
+    @GetMapping("/payment/zk/info")
+    public ResultMessage getZkInfo() {
+
+        return new ResultMessage(200, "OK,端口：" + port, null);
+    }
 }
