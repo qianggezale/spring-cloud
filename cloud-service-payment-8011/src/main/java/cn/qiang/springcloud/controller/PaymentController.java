@@ -71,4 +71,10 @@ public class PaymentController {
 
         return new ResultMessage(200, "OK,端口：" + port, null);
     }
+
+    @GetMapping("/payment/consul/info")
+    public ResultMessage getConsulInfo() {
+
+        return new ResultMessage(200, "OK,端口：" + port, null);
+    }
 }

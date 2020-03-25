@@ -39,15 +39,15 @@ public class OrderController {
 
     @GetMapping("/discovery/all")
     public Object getDisCovery() {
-//        List<String> services = discoveryClient.getServices();
-//
-//        for (String service : services) {
-//            System.out.println(service);
-//        }
-//        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-SERVICE-PAYMENT");
-//        for (ServiceInstance instance : instances) {
-//            System.out.println(instance.getUri());
-//        }
+        List<String> services = discoveryClient.getServices();
+
+        for (String service : services) {
+            System.out.println(service);
+        }
+        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-SERVICE-PAYMENT");
+        for (ServiceInstance instance : instances) {
+            System.out.println(instance.getUri());
+        }
 
         return discoveryClient.getServices();
     }
@@ -56,6 +56,13 @@ public class OrderController {
     public ResultMessage getZkInfo() {
 
         ResultMessage customerMessage = restTemplate.getForObject(PAYMENT_URL + "/payment/zk/info", ResultMessage.class);
+
+        return customerMessage;
+    }
+    @GetMapping("/consumer/payment/consul/info")
+    public ResultMessage getConsulInfo() {
+
+        ResultMessage customerMessage = restTemplate.getForObject(PAYMENT_URL + "/payment/consul/info", ResultMessage.class);
 
         return customerMessage;
     }

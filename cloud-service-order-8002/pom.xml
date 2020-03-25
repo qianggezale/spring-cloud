@@ -47,9 +47,14 @@
         <!--<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
         <!--</dependency>-->
         <!--Spring Cloud Zookeeper引用-->
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.cloud</groupId>-->
+        <!--<artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>-->
+        <!--</dependency>-->
+        <!--Spring Cloud Consul引用-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
     </dependencies>
 </project>
