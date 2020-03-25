@@ -46,7 +46,9 @@ public class PaymentController {
     }
 
     @PostMapping("/payment/create")
-    public ResultMessage create(Payment payment) {
+    public ResultMessage create(@RequestBody Payment payment) {
+
+        System.out.println(payment.getPayNo());
         ResultMessage resultMessage = new ResultMessage();
         Integer num = paymentService.create(payment);
         if (num > 0) {
