@@ -11,6 +11,7 @@
 
     <artifactId>cloud-service-order-8002</artifactId>
     <dependencies>
+        <!-- Spring Boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -30,6 +31,7 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!--公共-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -39,9 +41,15 @@
             <artifactId>cloud-api-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!--Eureka引用-->
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.cloud</groupId>-->
+        <!--<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+        <!--</dependency>-->
+        <!--Spring Cloud Zookeeper引用-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
         </dependency>
     </dependencies>
 </project>

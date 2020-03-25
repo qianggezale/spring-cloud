@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 public class OrderController {
 
-    private static final String PAYMENT_URL = "http://CLOUD-SERVICE-PAYMENT";
+    private static final String PAYMENT_URL = "http://cloud-service-payment";
 
     @Autowired
     private RestTemplate restTemplate;
@@ -50,5 +50,13 @@ public class OrderController {
 //        }
 
         return discoveryClient.getServices();
+    }
+
+    @GetMapping("/consumer/payment/zk/info")
+    public ResultMessage getZkInfo() {
+
+        ResultMessage customerMessage = restTemplate.getForObject(PAYMENT_URL + "/payment/zk/info", ResultMessage.class);
+
+        return customerMessage;
     }
 }

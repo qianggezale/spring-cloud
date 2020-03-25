@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02a7f8f-6f1d-423b-bc0b-012256a36d16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_1_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-payment-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-payment-8001/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-payment-8001/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-payment-8011/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-payment-8011/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/ApplicationPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/ApplicationPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-order-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-order-8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-provider-payment-8001/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +39,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="267">
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+              <folding>
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,9 +75,8 @@
         <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+              <caret line="76" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
               <folding>
-                <element signature="n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
@@ -70,116 +95,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="207">
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/src/main/java/cn/qiang/springcloud/ApplicationPayment.java">
+        <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/config/ApplicationContextConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="219">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#create#0;class#OrderController#0" />
+                <element signature="method#getDisCovery#0;class#OrderController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/ApplicationPayment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
               <caret line="11" column="57" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="11" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/src/main/java/cn/qiang/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="67" selection-end-line="72" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAllPayment#0;class#PaymentController#0" />
-                <element signature="method#getPayment#0;class#PaymentController#0" />
-                <element signature="method#create#0;class#PaymentController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAllPayment#0;class#PaymentController#0" />
-                <element signature="method#getPayment#0;class#PaymentController#0" />
-                <element signature="method#create#0;class#PaymentController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/ApplicationPayment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="40" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="95" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="95" selection-end-column="12" />
-              <folding>
-                <element signature="n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="62" column="48" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="48" />
-              <folding>
-                <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -239,16 +198,12 @@
         <option value="$PROJECT_DIR$/cloud-eureka-server-7002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7002/src/main/java/cn/qiang/springcloud/ApplicationEureka.java" />
         <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/config/ApplicationContextConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-service-order-8002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/springcloud/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/springcloud/service/impl/PaymentImpl.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/resources/mapper/PaymentMapper.xml" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8001/src/main/resources/mapper/PaymentMapper.xml" />
-        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/java/cn/qiang/springcloud/ApplicationEureka.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.properties" />
@@ -261,6 +216,10 @@
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/ApplicationPayment.java" />
+        <option value="$PROJECT_DIR$/cloud-service-order-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java" />
+        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -324,25 +283,25 @@
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -350,7 +309,7 @@
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -359,7 +318,17 @@
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -369,7 +338,7 @@
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-order-8002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -408,24 +377,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8011" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-payment-8011" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -523,8 +474,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApplicationPayment (1)" />
-        <item itemvalue="Spring Boot.ApplicationPayment" />
         <item itemvalue="Spring Boot.ApplicationOrder " />
+        <item itemvalue="Spring Boot.ApplicationPayment" />
         <item itemvalue="Spring Boot.ApplicationEureka" />
         <item itemvalue="Spring Boot.ApplicationEureka (1)" />
       </list>
@@ -543,7 +494,7 @@
       <workItem from="1585062087122" duration="8193000" />
       <workItem from="1585070942654" duration="306000" />
       <workItem from="1585102692606" duration="13584000" />
-      <workItem from="1585118334940" duration="13719000" />
+      <workItem from="1585118334940" duration="15036000" />
     </task>
     <task id="LOCAL-00001" summary="payment-provider">
       <created>1585062218736</created>
@@ -556,7 +507,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35802000" />
+    <option name="totallyTimeSpent" value="37119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -570,7 +521,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run Dashboard" order="2" visible="true" weight="0.25513196" />
+      <window_info anchor="bottom" id="Run Dashboard" order="2" visible="true" weight="0.23313783" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.18328446" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -732,47 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/config/ApplicationContextConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="49" column="11" selection-start-line="41" selection-start-column="10" selection-end-line="49" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -800,38 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="40" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="48" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -856,28 +738,6 @@
             <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#build#0;n#project#0;n#!!top" />
           </folding>
         </state>
@@ -919,13 +779,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="76" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/ApplicationPayment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="198">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="11" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#create#0;class#OrderController#0" />
+            <element signature="method#getDisCovery#0;class#OrderController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
