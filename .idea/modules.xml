@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-2020-03.iml" filepath="$PROJECT_DIR$/cloud-2020-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-common/cloud-api-common.iml" filepath="$PROJECT_DIR$/cloud-api-common/cloud-api-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-customer-order-8002/cloud-customer-order-8002.iml" filepath="$PROJECT_DIR$/cloud-customer-order-8002/cloud-customer-order-8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment-8001/cloud-provider-payment-8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment-8001/cloud-provider-payment-8001.iml" />
     </modules>

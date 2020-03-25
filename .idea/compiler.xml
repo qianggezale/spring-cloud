@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-common" />
         <module name="cloud-customer-order-8002" />
         <module name="cloud-provider-payment-8001" />
         <module name="consumerorder8002" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-03" target="1.8" />
+      <module name="cloud-api-common" target="1.8" />
       <module name="cloud-consumer-order-8002" target="1.8" />
       <module name="cloud-customer-order-8002" target="1.8" />
       <module name="cloud-provider-payment-8001" target="1.8" />

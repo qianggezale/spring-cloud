@@ -13,6 +13,7 @@
     <modules>
         <module>cloud-provider-payment-8001</module>
         <module>cloud-customer-order-8002</module>
+        <module>cloud-api-common</module>
     </modules>
     <!--统一管理jar包版本-->
     <properties>
