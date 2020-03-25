@@ -2,13 +2,16 @@ package cn.qiang.springcloud.controller;
 
 import cn.qiang.springcloud.entities.Payment;
 import cn.qiang.springcloud.entities.common.ResultMessage;
+import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 @RestController
 public class OrderController {
@@ -59,11 +62,20 @@ public class OrderController {
 
         return customerMessage;
     }
+
     @GetMapping("/consumer/payment/consul/info")
     public ResultMessage getConsulInfo() {
 
         ResultMessage customerMessage = restTemplate.getForObject(PAYMENT_URL + "/payment/consul/info", ResultMessage.class);
 
         return customerMessage;
+    }
+
+    @GetMapping("/consumer/payment/consul-entity/info")
+    public Object getConsulInfoForEntity() {
+
+        ResponseEntity<ResultMessage> forEntity = restTemplate.getForEntity(PAYMENT_URL + "/payment/consul/info", ResultMessage.class);
+
+        return forEntity;
     }
 }
