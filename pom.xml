@@ -17,6 +17,8 @@
         <module>cloud-service-payment-8001</module>
         <module>cloud-service-payment-8011</module>
         <module>cloud-service-order-8002</module>
+        <module>cloud-service-hystrix-openfeign-payment-8001</module>
+        <module>cloud-service-hystrix-openfeign-order-8002</module>
     </modules>
     <!--统一管理jar包版本-->
     <properties>
