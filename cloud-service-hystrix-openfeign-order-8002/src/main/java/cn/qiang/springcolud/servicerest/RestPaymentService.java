@@ -18,5 +18,8 @@ public interface RestPaymentService {
     @GetMapping("/payment/consul/info")
     public ResultMessage getConsulInfo();
 
+    @GetMapping("/payment/getbreak/{id}")
+    public ResultMessage getPaymentBreak(@PathVariable("id") Long id);
+
 
 }

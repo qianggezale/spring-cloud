@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-service-hystrix-openfeign-order-8002</artifactId>
+    <artifactId>cloud-hystrix-dashboard-8100</artifactId>
 
     <dependencies>
         <!-- Spring Boot -->
@@ -32,40 +32,10 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <!--公共-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.qiang.springcloud</groupId>
-            <artifactId>cloud-api-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <!--Eureka引用-->
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.cloud</groupId>-->
-        <!--<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
-        <!--</dependency>-->
-        <!--Spring Cloud Zookeeper引用-->
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.cloud</groupId>-->
-        <!--<artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>-->
-        <!--</dependency>-->
-        <!--Spring Cloud Consul引用-->
+        <!-- Hystrix DashBoard -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
-        </dependency>
-        <!--Spring Cloud Hystrix-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
-        <!--Spring Cloud Openfeign-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
         </dependency>
     </dependencies>
     <build>
@@ -76,7 +46,7 @@
                 <executions>
                     <execution>
                         <configuration>
-                            <mainClass>cn.qiang.springcolud.ApplicationHystrixOpenfeignOrder</mainClass>
+                            <mainClass>cn.qiang.springcloud.AppHystrixDashBoard</mainClass>
                         </configuration>
                         <goals>
                             <goal>repackage</goal>
@@ -86,4 +56,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

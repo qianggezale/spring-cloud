@@ -16,4 +16,9 @@ public class RestPaymentServiceImpl implements RestPaymentService {
     public ResultMessage getConsulInfo() {
         return new ResultMessage(300, "getConsulInfo 降级", null);
     }
+
+    @Override
+    public ResultMessage getPaymentBreak(Long id) {
+        return new ResultMessage(300, "getPaymentBreak 降级", null);
+    }
 }

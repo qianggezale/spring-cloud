@@ -33,7 +33,7 @@ public class OrderController {
     @Autowired
     private DiscoveryClient discoveryClient;
 
-    @GetMapping("/customer/payment/get/{id}")
+    @GetMapping("/consumer/payment/get/{id}")
     public ResultMessage getPayment(@PathVariable("id") Long id) {
 
         //ResultMessage customerMessage = restTemplate.getForObject(PAYMENT_URL + "/payment/get/" + id, ResultMessage.class);
@@ -44,7 +44,7 @@ public class OrderController {
         return payment;
     }
 
-    @GetMapping("/customer/payment/create")
+    @GetMapping("/consumer/payment/create")
     public ResultMessage create(Payment payment) {
         System.out.println(payment.getPayNo());
         ResultMessage resultMessage = restTemplate.postForObject(PAYMENT_URL + "/payment/create/", payment, ResultMessage.class);
@@ -90,5 +90,12 @@ public class OrderController {
         ResponseEntity<ResultMessage> forEntity = restTemplate.getForEntity(PAYMENT_URL + "/payment/consul/info", ResultMessage.class);
 
         return forEntity;
+    }
+
+    @GetMapping("/consumer/payment/getbreak/{id}")
+    public ResultMessage getPaymentBreak(@PathVariable("id") Long id) {
+
+        ResultMessage payment = restPaymentService.getPaymentBreak(id);
+        return payment;
     }
 }
