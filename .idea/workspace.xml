@@ -2,24 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02a7f8f-6f1d-423b-bc0b-012256a36d16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/java/cn/qiang/springcloud/AppHystrixDashBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-bus-client-5020/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/java/cn/qiang/springcloud/AppConfigBusClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/java/cn/qiang/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-bus-server-5010/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-bus-server-5010/src/main/java/cn/qiang/springcloud/AppConfigBusServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/RestPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/RestPaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/impl/RestPaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/impl/RestPaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/ApplicationHystrixOpenfeignPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/ApplicationHystrixOpenfeignPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/controller/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-provider-payment-8001/target/" />
@@ -40,6 +59,10 @@
     <ignored path="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/target/" />
     <ignored path="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-client-config-bus-5010/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-server-config-bus-5020/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-bus-client-5020/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-bus-server-5010/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,153 +75,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="97" column="67" selection-start-line="97" selection-start-column="67" selection-end-line="97" selection-end-column="67" />
-              <folding>
-                <element signature="method#getPayment#0;class#OrderController#0" />
-                <element signature="method#create#0;class#OrderController#0" />
-                <element signature="method#getDisCovery#0;class#OrderController#0" />
-                <element signature="method#getZkInfo#0;class#OrderController#0" />
-                <element signature="method#getConsulInfo#0;class#OrderController#0" />
-                <element signature="method#getConsulInfoForEntity#0;class#OrderController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="110" column="12" selection-start-line="93" selection-start-column="4" selection-end-line="110" selection-end-column="12" />
-              <folding>
-                <element signature="n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="12" selection-start-line="12" selection-end-line="87" selection-end-column="12" />
-              <folding>
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/RestPaymentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="70" selection-start-line="20" selection-start-column="6" selection-end-line="21" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAllPayment#0;class#PaymentController#0" />
-                <element signature="method#getPayment#0;class#PaymentController#0" />
-                <element signature="method#create#0;class#PaymentController#0" />
-                <element signature="method#getZkInfo#0;class#PaymentController#0" />
-                <element signature="method#getConsulInfo#0;class#PaymentController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-8100/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-              <folding>
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/java/cn/qiang/springcloud/AppHystrixDashBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/ApplicationHystrixOpenfeignPayment.java">
+        <entry file="file://$PROJECT_DIR$/cloud-config-bus-server-5010/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="109">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -234,14 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-customer-order-8002/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-customer-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-customer-order-8002/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server-7002/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server-7002/src/main/java/cn/qiang/springcloud/ApplicationEureka.java" />
-        <option value="$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/config/ApplicationContextConfig.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/springcloud/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/springcloud/service/impl/PaymentImpl.java" />
         <option value="$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/springcloud/controller/PaymentController.java" />
@@ -279,12 +156,20 @@
         <option value="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/impl/RestPaymentServiceImpl.java" />
         <option value="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/java/cn/qiang/springcloud/AppHystrixDashBoard.java" />
         <option value="$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/ApplicationHystrixOpenfeignPayment.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/java/cn/qiang/springcloud/AppConfigBusClient.java" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/java/cn/qiang/springcloud/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-server-5010/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-server-5010/src/main/java/cn/qiang/springcloud/AppConfigBusServer.java" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-server-5010/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-bus-client-5020/pom.xml" />
       </list>
     </option>
   </component>
@@ -307,7 +192,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -331,7 +216,7 @@
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-hystrix-dashboard-8100" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-bus-server-5010" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-2020-03" type="b2602c69:ProjectViewProjectNode" />
@@ -364,11 +249,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1Info\project\java\spring-cloud\cloud-config-bus-client-5020\src\main\resources" />
+      <recent name="D:\1Info\project\java\spring-cloud\cloud-config-bus-server-5010\src\main\resources" />
       <recent name="D:\1Info\project\java\spring-cloud\cloud-hystrix-dashboard-8100\src\main\resources" />
       <recent name="D:\1Info\project\java\spring-cloud\cloud-service-hystrix-openfeign-order-8002\src\main\java\cn\qiang\springcolud" />
       <recent name="D:\1Info\project\java\spring-cloud\cloud-service-hystrix-openfeign-order-8002\src\main\resources" />
-      <recent name="D:\1Info\project\java\spring-cloud\cloud-service-hystrix-openfeign-payment-8001\src\main\resources" />
-      <recent name="D:\1Info\project\java\spring-cloud\cloud-service-hystrix-openfeign-payment-8001\src\main\java\cn\qiang\cloudspring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,7 +274,21 @@
     </option>
     <option name="contentProportion" value="0.29030055" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationHystrixOpenfeignOrder">
+  <component name="RunManager" selected="Spring Boot.AppConfigBusClient">
+    <configuration name="AppConfigBusClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-bus-client-5020" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppConfigBusClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConfigBusServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-bus-server-5010" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppConfigBusServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppHystrixDashBoard" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-hystrix-dashboard-8100" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppHystrixDashBoard" />
@@ -426,36 +325,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationPayment (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-service-payment-8011" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.ApplicationPayment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationPayment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-service-payment-8001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.ApplicationPayment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ApplicationPayment" />
       <item itemvalue="Spring Boot.ApplicationOrder " />
-      <item itemvalue="Spring Boot.ApplicationPayment (1)" />
       <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignPayment" />
       <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignOrder" />
       <item itemvalue="Spring Boot.ApplicationEureka" />
       <item itemvalue="Spring Boot.AppHystrixDashBoard" />
+      <item itemvalue="Spring Boot.AppConfigBusServer" />
+      <item itemvalue="Spring Boot.AppConfigBusClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppConfigBusClient" />
+        <item itemvalue="Spring Boot.AppConfigBusServer" />
         <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignOrder" />
         <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignPayment" />
         <item itemvalue="Spring Boot.ApplicationOrder " />
-        <item itemvalue="Spring Boot.ApplicationPayment (1)" />
-        <item itemvalue="Spring Boot.ApplicationPayment" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +358,7 @@
       <workItem from="1585070942654" duration="306000" />
       <workItem from="1585102692606" duration="13584000" />
       <workItem from="1585118334940" duration="24877000" />
-      <workItem from="1585196194850" duration="18456000" />
+      <workItem from="1585196194850" duration="26236000" />
     </task>
     <task id="LOCAL-00001" summary="payment-provider">
       <created>1585062218736</created>
@@ -486,12 +371,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65416000" />
+    <option name="totallyTimeSpent" value="73196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -499,7 +385,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="2" visible="true" weight="0.3196481" />
+      <window_info anchor="bottom" id="Run Dashboard" order="2" visible="true" weight="0.32551318" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.18328446" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -517,7 +403,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.21514745" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.21514745" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -550,74 +436,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/java/cn/qiang/springcloud/ApplicationEureka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/service/impl/PaymentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-common/src/main/java/cn/qiang/springcloud/entities/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8001/src/main/resources/mapper/PaymentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/resources/mapper/PaymentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-payment-8011/src/main/java/cn/qiang/springcloud/dao/PaymentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/java/cn/qiang/springcloud/ApplicationEureka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -801,22 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/src/main/java/cn/qiang/springcloud/ApplicationOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -845,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -915,43 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="110" column="12" selection-start-line="93" selection-start-column="4" selection-end-line="110" selection-end-column="12" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/src/main/java/cn/qiang/springcolud/servicerest/impl/RestPaymentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -996,21 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="12" selection-start-line="12" selection-end-line="87" selection-end-column="12" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard-8100/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1041,12 +784,168 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server-config-bus-5020/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client-config-bus-5010/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/java/cn/qiang/springcloud/ApplicationHystrixOpenfeignPayment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-order-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-order-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="87" column="12" selection-start-line="12" selection-end-line="87" selection-end-column="12" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/java/cn/qiang/springcloud/AppConfigBusClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-server-5010/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/java/cn/qiang/springcloud/controller/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#454#1" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-client-5020/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-server-5010/src/main/java/cn/qiang/springcloud/AppConfigBusServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix-openfeign-payment-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="110" selection-end-column="12" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-client-5020/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-bus-server-5010/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
           </folding>
         </state>
       </provider>

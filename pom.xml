@@ -20,6 +20,8 @@
         <module>cloud-service-hystrix-openfeign-payment-8001</module>
         <module>cloud-service-hystrix-openfeign-order-8002</module>
         <module>cloud-hystrix-dashboard-8100</module>
+        <module>cloud-config-bus-client-5020</module>
+        <module>cloud-config-bus-server-5010</module>
     </modules>
     <!--统一管理jar包版本-->
     <properties>

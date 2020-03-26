@@ -8,7 +8,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-client-config-bus-5010/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumer-order-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-server-config-bus-5020/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-order-8002/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/test1/pom.xml" />
