@@ -22,6 +22,8 @@
         <module>cloud-hystrix-dashboard-8100</module>
         <module>cloud-config-bus-client-5020</module>
         <module>cloud-config-bus-server-5010</module>
+        <module>cloud-stream-send-5010</module>
+        <module>cloud-stream-receive-5020</module>
     </modules>
     <!--统一管理jar包版本-->
     <properties>

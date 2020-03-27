@@ -7,41 +7,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-api-common" />
-        <module name="cloud-config-bus-client-5020" />
-        <module name="cloud-config-bus-server-5010" />
-        <module name="cloud-eureka-server-7001" />
-        <module name="cloud-eureka-server-7002" />
-        <module name="cloud-hystrix-dashboard-8100" />
         <module name="cloud-server-config-bus-5020" />
-        <module name="cloud-service-hystrix-openfeign-order-8002" />
         <module name="cloud-service-hystrix-openfeign-payment-8001" />
+        <module name="cloud-eureka-server-7002" />
+        <module name="cloud-eureka-server-7001" />
+        <module name="cloud-config-bus-server-5010" />
+        <module name="cloud-config-bus-client-5020" />
         <module name="cloud-service-order-8002" />
+        <module name="cloud-stream-receive-5020" />
+        <module name="cloud-api-common" />
+        <module name="cloud-stream-send-5010" />
         <module name="cloud-service-payment-8001" />
+        <module name="cloud-service-hystrix-openfeign-order-8002" />
         <module name="cloud-service-payment-8011" />
         <module name="consumerorder8002" />
+        <module name="cloud-hystrix-dashboard-8100" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-2020-03" target="1.8" />
       <module name="cloud-api-common" target="1.8" />
-      <module name="cloud-client-config-bus-5010" target="1.8" />
       <module name="cloud-config-bus-client-5020" target="1.8" />
       <module name="cloud-config-bus-server-5010" target="1.8" />
-      <module name="cloud-consumer-order-8002" target="1.8" />
       <module name="cloud-eureka-server-7001" target="1.8" />
       <module name="cloud-eureka-server-7002" target="1.8" />
       <module name="cloud-hystrix-dashboard-8100" target="1.8" />
-      <module name="cloud-server-config-bus-5020" target="1.8" />
       <module name="cloud-service-hystrix-openfeign-order-8002" target="1.8" />
       <module name="cloud-service-hystrix-openfeign-payment-8001" target="1.8" />
       <module name="cloud-service-order-8002" target="1.8" />
       <module name="cloud-service-payment-8001" target="1.8" />
       <module name="cloud-service-payment-8011" target="1.8" />
-      <module name="cloudconsumerorder8002" target="1.8" />
-      <module name="consumerorder8002" target="1.8" />
-      <module name="test" target="1.8" />
-      <module name="test1" target="1.8" />
+      <module name="cloud-stream-receive-5020" target="1.8" />
+      <module name="cloud-stream-send-5010" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
