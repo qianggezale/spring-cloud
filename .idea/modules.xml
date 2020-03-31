@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-service-payment-8011/cloud-service-payment-8011.iml" filepath="$PROJECT_DIR$/cloud-service-payment-8011/cloud-service-payment-8011.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-receive-5020/cloud-stream-receive-5020.iml" filepath="$PROJECT_DIR$/cloud-stream-receive-5020/cloud-stream-receive-5020.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-send-5010/cloud-stream-send-5010.iml" filepath="$PROJECT_DIR$/cloud-stream-send-5010/cloud-stream-send-5010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul-6001/cloud-zuul-6001.iml" filepath="$PROJECT_DIR$/cloud-zuul-6001/cloud-zuul-6001.iml" />
     </modules>
   </component>
 </project>

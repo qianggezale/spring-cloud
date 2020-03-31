@@ -14,13 +14,14 @@
         <module name="cloud-config-bus-server-5010" />
         <module name="cloud-config-bus-client-5020" />
         <module name="cloud-service-order-8002" />
+        <module name="cloud-zuul-6001" />
         <module name="cloud-stream-receive-5020" />
         <module name="cloud-api-common" />
         <module name="cloud-stream-send-5010" />
         <module name="cloud-service-payment-8001" />
-        <module name="cloud-service-hystrix-openfeign-order-8002" />
-        <module name="cloud-service-payment-8011" />
         <module name="consumerorder8002" />
+        <module name="cloud-service-payment-8011" />
+        <module name="cloud-service-hystrix-openfeign-order-8002" />
         <module name="cloud-hystrix-dashboard-8100" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="cloud-service-payment-8011" target="1.8" />
       <module name="cloud-stream-receive-5020" target="1.8" />
       <module name="cloud-stream-send-5010" target="1.8" />
+      <module name="cloud-zuul-6001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

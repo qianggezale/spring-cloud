@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02a7f8f-6f1d-423b-bc0b-012256a36d16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-receive-5020/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-receive-5020/src/main/java/cn/qiang/springcloud/AppStreamReceive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-receive-5020/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-send-5010/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-send-5010/src/main/java/cn/qiang/springcloud/AppStreamSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-send-5010/src/main/java/cn/qiang/springcloud/controller/SendCotroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-send-5010/src/main/java/cn/qiang/springcloud/service/StreamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-send-5010/src/main/java/cn/qiang/springcloud/service/impl/StreamServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-send-5010/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul-6001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul-6001/src/main/java/cn/qiang/springcloud/AppZuul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul-6001/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-receive-5020/src/main/java/cn/qiang/springcloud/AppStreamReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-stream-receive-5020/src/main/java/cn/qiang/springcloud/AppStreamReceive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,6 +49,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -80,10 +78,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-receive-5020/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-zuul-6001/src/main/resources/application.properties" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -108,17 +107,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppStreamReceive">
+  <component name="RunManager" selected="Spring Boot.ApplicationPayment">
     <configuration name="AppConfigBusClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-bus-client-5020" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppConfigBusClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppConfigBusServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-bus-server-5010" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppConfigBusServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +132,13 @@
     <configuration name="AppStreamSend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-stream-send-5010" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppStreamSend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppZuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zuul-6001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.AppZuul" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,6 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationPayment (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-service-payment-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.ApplicationPayment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationPayment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-service-payment-8011" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qiang.springcloud.ApplicationPayment" />
@@ -187,17 +193,18 @@
       <item itemvalue="Spring Boot.ApplicationOrder" />
       <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignPayment" />
       <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignOrder" />
-      <item itemvalue="Spring Boot.AppConfigBusServer" />
       <item itemvalue="Spring Boot.AppConfigBusClient" />
       <item itemvalue="Spring Boot.AppStreamSend" />
+      <item itemvalue="Spring Boot.AppZuul" />
+      <item itemvalue="Spring Boot.ApplicationPayment (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApplicationPayment (1)" />
         <item itemvalue="Spring Boot.AppStreamSend" />
         <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignPayment" />
         <item itemvalue="Spring Boot.ApplicationHystrixOpenfeignOrder" />
         <item itemvalue="Spring Boot.AppConfigBusClient" />
-        <item itemvalue="Spring Boot.AppConfigBusServer" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +252,14 @@
       <workItem from="1585310846586" duration="18000" />
       <workItem from="1585310890024" duration="197000" />
       <workItem from="1585311148964" duration="198000" />
-      <workItem from="1585311599627" duration="5494000" />
+      <workItem from="1585311599627" duration="5654000" />
+      <workItem from="1585322069581" duration="1818000" />
+      <workItem from="1585367536889" duration="279000" />
+      <workItem from="1585390658800" duration="148000" />
+      <workItem from="1585390895435" duration="1278000" />
+      <workItem from="1585405157410" duration="90000" />
+      <workItem from="1585490013963" duration="214000" />
+      <workItem from="1585669215748" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary="payment-provider">
       <created>1585062218736</created>
@@ -277,50 +291,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585313936461" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585312720968">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585669764027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585312720968" />
-    <state width="1493" height="100" key="GridCell.Tab.0.bottom" timestamp="1585316852880">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585669764027" />
+    <state width="1113" height="151" key="GridCell.Tab.0.bottom" timestamp="1585671036421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585316852880" />
-    <state width="1493" height="100" key="GridCell.Tab.0.center" timestamp="1585316852880">
+    <state width="1113" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585671036421" />
+    <state width="1113" height="151" key="GridCell.Tab.0.center" timestamp="1585671036420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585316852880" />
-    <state width="1493" height="100" key="GridCell.Tab.0.left" timestamp="1585316852880">
+    <state width="1113" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585671036420" />
+    <state width="1113" height="151" key="GridCell.Tab.0.left" timestamp="1585671036420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585316852880" />
-    <state width="1493" height="100" key="GridCell.Tab.0.right" timestamp="1585316852880">
+    <state width="1113" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585671036420" />
+    <state width="1113" height="151" key="GridCell.Tab.0.right" timestamp="1585671036420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585316852880" />
-    <state width="1113" height="183" key="GridCell.Tab.1.bottom" timestamp="1585316831432">
+    <state width="1113" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585671036420" />
+    <state width="1113" height="151" key="GridCell.Tab.1.bottom" timestamp="1585671036422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1113" height="183" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585316831432" />
-    <state width="1113" height="183" key="GridCell.Tab.1.center" timestamp="1585316831432">
+    <state width="1113" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585671036422" />
+    <state width="1113" height="151" key="GridCell.Tab.1.center" timestamp="1585671036421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1113" height="183" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585316831432" />
-    <state width="1113" height="183" key="GridCell.Tab.1.left" timestamp="1585316831432">
+    <state width="1113" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585671036421" />
+    <state width="1113" height="151" key="GridCell.Tab.1.left" timestamp="1585671036421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1113" height="183" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585316831432" />
-    <state width="1113" height="183" key="GridCell.Tab.1.right" timestamp="1585316831432">
+    <state width="1113" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585671036421" />
+    <state width="1113" height="151" key="GridCell.Tab.1.right" timestamp="1585671036421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1113" height="183" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585316831432" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1585312731585">
+    <state width="1113" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585671036421" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1585669899506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585312731585" />
-    <state x="311" y="95" key="spring file set editor" timestamp="1585311730355">
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1585669899506" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1585669770446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="311" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1585311730355" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585669770446" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585367613362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585367613361" />
+    <state x="401" y="22" width="868" height="610" key="new project wizard" timestamp="1585669404172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="22" width="868" height="610" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585669404172" />
+    <state x="311" y="95" key="spring file set editor" timestamp="1585669765393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="311" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1585669765393" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

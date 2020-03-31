@@ -44,6 +44,8 @@
     <file url="file://$PROJECT_DIR$/cloud-stream-send-5010" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-send-5010/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-send-5010/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul-6001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul-6001/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
